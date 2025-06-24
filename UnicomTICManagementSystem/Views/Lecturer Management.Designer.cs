@@ -46,6 +46,9 @@
             this.tittle = new System.Windows.Forms.Label();
             this.submitbtn = new System.Windows.Forms.Button();
             this.name = new System.Windows.Forms.ComboBox();
+            this.lecturerData = new System.Windows.Forms.DataGridView();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            ((System.ComponentModel.ISupportInitialize)(this.lecturerData)).BeginInit();
             this.SuspendLayout();
             // 
             // number
@@ -243,12 +246,22 @@
             this.name.Size = new System.Drawing.Size(148, 21);
             this.name.TabIndex = 31;
             // 
+            // lecturerData
+            // 
+            this.lecturerData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.lecturerData.Location = new System.Drawing.Point(455, 106);
+            this.lecturerData.Name = "lecturerData";
+            this.lecturerData.Size = new System.Drawing.Size(343, 372);
+            this.lecturerData.TabIndex = 32;
+            this.lecturerData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.lecturerData_CellContentClick);
+            // 
             // Lecturer_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(454, 509);
+            this.ClientSize = new System.Drawing.Size(822, 509);
+            this.Controls.Add(this.lecturerData);
             this.Controls.Add(this.name);
             this.Controls.Add(this.submitbtn);
             this.Controls.Add(this.number);
@@ -270,6 +283,7 @@
             this.Name = "Lecturer_Management";
             this.Text = "Lecture_Management";
             this.Load += new System.EventHandler(this.Lecturer_Management_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.lecturerData)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +308,7 @@
         private System.Windows.Forms.Label tittle;
         private System.Windows.Forms.Button submitbtn;
         private System.Windows.Forms.ComboBox name;
+        private System.Windows.Forms.DataGridView lecturerData;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

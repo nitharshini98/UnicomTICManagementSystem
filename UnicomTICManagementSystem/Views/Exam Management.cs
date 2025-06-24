@@ -18,7 +18,7 @@ namespace UnicomTICManagementSystem.Views
         public Exam_Management()
         {
             InitializeComponent();
-            LoadExams();
+           
         }
 
         private void LoadExams()

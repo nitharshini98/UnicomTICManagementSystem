@@ -15,6 +15,7 @@ namespace UnicomTICManagementSystem.Views
         public ViewExams()
         {
             InitializeComponent();
+            
         }
 
         private void backbtn_Click(object sender, EventArgs e)

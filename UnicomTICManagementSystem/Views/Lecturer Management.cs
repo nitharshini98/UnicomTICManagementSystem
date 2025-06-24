@@ -50,5 +50,14 @@ namespace UnicomTICManagementSystem.Views
             lecturerController.AddLecturer(lecturer);
             MessageBox.Show("SuccesFully Add Lecturer!", "Success" ,MessageBoxButtons.OK ,MessageBoxIcon.Information);
         }
+
+        private void lecturerData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (lecturerData.SelectedRows.Count > 0)
+            {
+                name.Text = lecturerData.SelectedRows[0].Cells[" LectureID "].Value.ToString();
+            }
+        }
     }
+    
 }
