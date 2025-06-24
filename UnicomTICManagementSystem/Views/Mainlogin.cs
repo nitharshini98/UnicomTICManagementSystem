@@ -124,5 +124,30 @@ namespace UnicomTICManagementSystem.Views
                 MessageBox.Show("Please select a valid role.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }        
         }
+
+        private void userlogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void role_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rolecomboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

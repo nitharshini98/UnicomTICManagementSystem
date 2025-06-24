@@ -40,10 +40,9 @@
             // marksbtn
             // 
             this.marksbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marksbtn.Location = new System.Drawing.Point(631, 534);
-            this.marksbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.marksbtn.Location = new System.Drawing.Point(46, 370);
             this.marksbtn.Name = "marksbtn";
-            this.marksbtn.Size = new System.Drawing.Size(320, 85);
+            this.marksbtn.Size = new System.Drawing.Size(189, 46);
             this.marksbtn.TabIndex = 3;
             this.marksbtn.Text = "View Marks";
             this.marksbtn.UseVisualStyleBackColor = true;
@@ -52,10 +51,9 @@
             // exambtn
             // 
             this.exambtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exambtn.Location = new System.Drawing.Point(631, 407);
-            this.exambtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.exambtn.Location = new System.Drawing.Point(46, 275);
             this.exambtn.Name = "exambtn";
-            this.exambtn.Size = new System.Drawing.Size(320, 85);
+            this.exambtn.Size = new System.Drawing.Size(189, 46);
             this.exambtn.TabIndex = 4;
             this.exambtn.Text = "View Exam";
             this.exambtn.UseVisualStyleBackColor = true;
@@ -64,10 +62,9 @@
             // subjectbtn
             // 
             this.subjectbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subjectbtn.Location = new System.Drawing.Point(631, 290);
-            this.subjectbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.subjectbtn.Location = new System.Drawing.Point(46, 170);
             this.subjectbtn.Name = "subjectbtn";
-            this.subjectbtn.Size = new System.Drawing.Size(320, 85);
+            this.subjectbtn.Size = new System.Drawing.Size(189, 46);
             this.subjectbtn.TabIndex = 5;
             this.subjectbtn.Text = "View Subject";
             this.subjectbtn.UseVisualStyleBackColor = true;
@@ -76,10 +73,9 @@
             // timetalebtn
             // 
             this.timetalebtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timetalebtn.Location = new System.Drawing.Point(631, 167);
-            this.timetalebtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.timetalebtn.Location = new System.Drawing.Point(46, 76);
             this.timetalebtn.Name = "timetalebtn";
-            this.timetalebtn.Size = new System.Drawing.Size(320, 85);
+            this.timetalebtn.Size = new System.Drawing.Size(189, 46);
             this.timetalebtn.TabIndex = 6;
             this.timetalebtn.Text = "View Timetable";
             this.timetalebtn.UseVisualStyleBackColor = true;
@@ -88,21 +84,20 @@
             // student1
             // 
             this.student1.AutoSize = true;
-            this.student1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 22.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.student1.Location = new System.Drawing.Point(627, 63);
-            this.student1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.student1.Font = new System.Drawing.Font("Modern No. 20", 23.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.student1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.student1.Location = new System.Drawing.Point(40, 21);
             this.student1.Name = "student1";
-            this.student1.Size = new System.Drawing.Size(331, 43);
+            this.student1.Size = new System.Drawing.Size(231, 32);
             this.student1.TabIndex = 2;
             this.student1.Text = "Student Interface";
             // 
             // backbtn
             // 
             this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(13, 802);
-            this.backbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.backbtn.Location = new System.Drawing.Point(46, 534);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(132, 38);
+            this.backbtn.Size = new System.Drawing.Size(99, 31);
             this.backbtn.TabIndex = 7;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = true;
@@ -111,10 +106,9 @@
             // attendancebtn
             // 
             this.attendancebtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attendancebtn.Location = new System.Drawing.Point(631, 665);
-            this.attendancebtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.attendancebtn.Location = new System.Drawing.Point(46, 468);
             this.attendancebtn.Name = "attendancebtn";
-            this.attendancebtn.Size = new System.Drawing.Size(320, 85);
+            this.attendancebtn.Size = new System.Drawing.Size(189, 46);
             this.attendancebtn.TabIndex = 3;
             this.attendancebtn.Text = "View Attendance";
             this.attendancebtn.UseVisualStyleBackColor = true;
@@ -122,9 +116,10 @@
             // 
             // Student
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1581, 853);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(354, 577);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.attendancebtn);
             this.Controls.Add(this.marksbtn);
@@ -132,7 +127,6 @@
             this.Controls.Add(this.subjectbtn);
             this.Controls.Add(this.timetalebtn);
             this.Controls.Add(this.student1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Student";
             this.Text = "Student";
             this.Load += new System.EventHandler(this.Student_Load);

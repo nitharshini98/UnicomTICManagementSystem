@@ -59,7 +59,6 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\AttendanceController.cs" />
     <Compile Include="Controllers\ExamController.cs" />
     <Compile Include="Controllers\LecturerController.cs" />
     <Compile Include="Controllers\MarkController.cs" />
@@ -68,7 +67,6 @@
     <Compile Include="Controllers\SubjectController.cs" />
     <Compile Include="Controllers\TimetableController.cs" />
     <Compile Include="Model\Admin.cs" />
-    <Compile Include="Model\Attendance.cs" />
     <Compile Include="Model\Exam.cs" />
     <Compile Include="Model\Lecturer.cs" />
     <Compile Include="Model\Mark.cs" />
@@ -86,12 +84,6 @@
     </Compile>
     <Compile Include="Views\Admin Interface.Designer.cs">
       <DependentUpon>Admin Interface.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Attendance Management.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Attendance Management.Designer.cs">
-      <DependentUpon>Attendance Management.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exam Management.cs">
       <SubType>Form</SubType>
@@ -203,9 +195,6 @@
     </Compile>
     <EmbeddedResource Include="Views\Admin Interface.resx">
       <DependentUpon>Admin Interface.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Attendance Management.resx">
-      <DependentUpon>Attendance Management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Exam Management.resx">
       <DependentUpon>Exam Management.cs</DependentUpon>

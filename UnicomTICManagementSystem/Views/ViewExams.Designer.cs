@@ -37,30 +37,31 @@
             // tittle
             // 
             this.tittle.AutoSize = true;
-            this.tittle.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tittle.Location = new System.Drawing.Point(502, 57);
+            this.tittle.Font = new System.Drawing.Font("Modern No. 20", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tittle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tittle.Location = new System.Drawing.Point(53, 35);
             this.tittle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tittle.Name = "tittle";
-            this.tittle.Size = new System.Drawing.Size(195, 40);
+            this.tittle.Size = new System.Drawing.Size(181, 32);
             this.tittle.TabIndex = 7;
             this.tittle.Text = "View Exams";
             // 
             // viewexamdata2
             // 
             this.viewexamdata2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.viewexamdata2.Location = new System.Drawing.Point(367, 160);
-            this.viewexamdata2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.viewexamdata2.Location = new System.Drawing.Point(34, 113);
+            this.viewexamdata2.Margin = new System.Windows.Forms.Padding(2);
             this.viewexamdata2.Name = "viewexamdata2";
             this.viewexamdata2.RowHeadersWidth = 51;
             this.viewexamdata2.RowTemplate.Height = 24;
-            this.viewexamdata2.Size = new System.Drawing.Size(452, 349);
+            this.viewexamdata2.Size = new System.Drawing.Size(245, 185);
             this.viewexamdata2.TabIndex = 6;
             this.viewexamdata2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.viewexamdata2_CellContentClick);
             // 
             // backbtn
             // 
             this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(10, 652);
+            this.backbtn.Location = new System.Drawing.Point(34, 351);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(99, 31);
             this.backbtn.TabIndex = 8;
@@ -72,11 +73,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1186, 693);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(313, 415);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.tittle);
             this.Controls.Add(this.viewexamdata2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewExams";
             this.Text = "ViewExams";
             ((System.ComponentModel.ISupportInitialize)(this.viewexamdata2)).EndInit();

@@ -39,19 +39,20 @@
             // lecturer
             // 
             this.lecturer.AutoSize = true;
-            this.lecturer.Font = new System.Drawing.Font("Arial Rounded MT Bold", 22.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lecturer.Location = new System.Drawing.Point(457, 24);
+            this.lecturer.Font = new System.Drawing.Font("Baskerville Old Face", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lecturer.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lecturer.Location = new System.Drawing.Point(34, 9);
             this.lecturer.Name = "lecturer";
-            this.lecturer.Size = new System.Drawing.Size(283, 34);
+            this.lecturer.Size = new System.Drawing.Size(256, 35);
             this.lecturer.TabIndex = 0;
             this.lecturer.Text = "Lecturer Interface";
             // 
             // timetalebtn
             // 
             this.timetalebtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timetalebtn.Location = new System.Drawing.Point(473, 144);
+            this.timetalebtn.Location = new System.Drawing.Point(97, 75);
             this.timetalebtn.Name = "timetalebtn";
-            this.timetalebtn.Size = new System.Drawing.Size(240, 69);
+            this.timetalebtn.Size = new System.Drawing.Size(173, 48);
             this.timetalebtn.TabIndex = 1;
             this.timetalebtn.Text = "View Timetable";
             this.timetalebtn.UseVisualStyleBackColor = true;
@@ -60,9 +61,9 @@
             // subjectbtn
             // 
             this.subjectbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subjectbtn.Location = new System.Drawing.Point(473, 249);
+            this.subjectbtn.Location = new System.Drawing.Point(97, 153);
             this.subjectbtn.Name = "subjectbtn";
-            this.subjectbtn.Size = new System.Drawing.Size(240, 69);
+            this.subjectbtn.Size = new System.Drawing.Size(173, 45);
             this.subjectbtn.TabIndex = 1;
             this.subjectbtn.Text = "View Subject";
             this.subjectbtn.UseVisualStyleBackColor = true;
@@ -71,9 +72,9 @@
             // exambtn
             // 
             this.exambtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exambtn.Location = new System.Drawing.Point(473, 358);
+            this.exambtn.Location = new System.Drawing.Point(97, 230);
             this.exambtn.Name = "exambtn";
-            this.exambtn.Size = new System.Drawing.Size(240, 69);
+            this.exambtn.Size = new System.Drawing.Size(173, 45);
             this.exambtn.TabIndex = 1;
             this.exambtn.Text = "View Exam";
             this.exambtn.UseVisualStyleBackColor = true;
@@ -82,9 +83,9 @@
             // marksbtn
             // 
             this.marksbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marksbtn.Location = new System.Drawing.Point(473, 475);
+            this.marksbtn.Location = new System.Drawing.Point(97, 309);
             this.marksbtn.Name = "marksbtn";
-            this.marksbtn.Size = new System.Drawing.Size(240, 69);
+            this.marksbtn.Size = new System.Drawing.Size(173, 45);
             this.marksbtn.TabIndex = 1;
             this.marksbtn.Text = "View Marks";
             this.marksbtn.UseVisualStyleBackColor = true;
@@ -93,7 +94,7 @@
             // backbtn
             // 
             this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(16, 652);
+            this.backbtn.Location = new System.Drawing.Point(12, 360);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(99, 31);
             this.backbtn.TabIndex = 2;
@@ -105,7 +106,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 693);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(437, 417);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.marksbtn);
             this.Controls.Add(this.exambtn);

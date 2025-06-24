@@ -209,3 +209,33 @@ Z:\C#_sharp\Nitha Akka\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\D
 Z:\C#_sharp\Nitha Akka\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
 Z:\C#_sharp\Nitha Akka\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
 Z:\C#_sharp\Nitha Akka\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe.config
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.exe
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\UnicomTICManagementSystem.pdb
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.dll
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\bin\Debug\System.Data.SQLite.xml
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.AssemblyReference.cache
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.AboutBox1.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Properties.Resources.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Admin_Interface.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Exam_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Lecturer_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Lectrer.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Mainlogin.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Marks_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Staff_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.StaffForm.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Student_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Student.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Subject_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.Timetable_Management.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.VIewAttendance.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.ViewExams.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.ViewMarks.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.ViewSubjects.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.Views.ViewTimetable.resources
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.GenerateResource.cache
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.csproj.CoreCompileInputs.cache
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTI.449BFD41.Up2Date
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.exe
+Z:\C#_sharp\UNMS\UnicomTICManagementSystem\UnicomTICManagementSystem\obj\Debug\UnicomTICManagementSystem.pdb

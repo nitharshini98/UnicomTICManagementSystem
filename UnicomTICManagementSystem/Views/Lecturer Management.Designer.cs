@@ -65,7 +65,7 @@
             this.mobilenum.Margin = new System.Windows.Forms.Padding(2);
             this.mobilenum.Mask = " 00-000-000";
             this.mobilenum.Name = "mobilenum";
-            this.mobilenum.Size = new System.Drawing.Size(257, 20);
+            this.mobilenum.Size = new System.Drawing.Size(87, 20);
             this.mobilenum.TabIndex = 28;
             // 
             // dateofbirthTextBox1
@@ -74,7 +74,7 @@
             this.dateofbirthTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.dateofbirthTextBox1.Mask = "00/00/0000 ";
             this.dateofbirthTextBox1.Name = "dateofbirthTextBox1";
-            this.dateofbirthTextBox1.Size = new System.Drawing.Size(318, 20);
+            this.dateofbirthTextBox1.Size = new System.Drawing.Size(148, 20);
             this.dateofbirthTextBox1.TabIndex = 27;
             this.dateofbirthTextBox1.ValidatingType = typeof(System.DateTime);
             // 
@@ -84,7 +84,7 @@
             this.subjectcombobox.Location = new System.Drawing.Point(244, 149);
             this.subjectcombobox.Margin = new System.Windows.Forms.Padding(2);
             this.subjectcombobox.Name = "subjectcombobox";
-            this.subjectcombobox.Size = new System.Drawing.Size(318, 21);
+            this.subjectcombobox.Size = new System.Drawing.Size(148, 21);
             this.subjectcombobox.TabIndex = 26;
             // 
             // gendercombobox
@@ -96,7 +96,7 @@
             this.gendercombobox.Location = new System.Drawing.Point(244, 230);
             this.gendercombobox.Margin = new System.Windows.Forms.Padding(2);
             this.gendercombobox.Name = "gendercombobox";
-            this.gendercombobox.Size = new System.Drawing.Size(318, 21);
+            this.gendercombobox.Size = new System.Drawing.Size(148, 21);
             this.gendercombobox.TabIndex = 25;
             // 
             // emailtextbox
@@ -104,7 +104,7 @@
             this.emailtextbox.Location = new System.Drawing.Point(244, 392);
             this.emailtextbox.Margin = new System.Windows.Forms.Padding(2);
             this.emailtextbox.Name = "emailtextbox";
-            this.emailtextbox.Size = new System.Drawing.Size(318, 20);
+            this.emailtextbox.Size = new System.Drawing.Size(148, 20);
             this.emailtextbox.TabIndex = 23;
             // 
             // addresstextbox
@@ -112,16 +112,16 @@
             this.addresstextbox.Location = new System.Drawing.Point(244, 190);
             this.addresstextbox.Margin = new System.Windows.Forms.Padding(2);
             this.addresstextbox.Name = "addresstextbox";
-            this.addresstextbox.Size = new System.Drawing.Size(318, 20);
+            this.addresstextbox.Size = new System.Drawing.Size(148, 20);
             this.addresstextbox.TabIndex = 24;
             // 
             // Backbtn
             // 
             this.Backbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Backbtn.Location = new System.Drawing.Point(9, 711);
+            this.Backbtn.Location = new System.Drawing.Point(38, 431);
             this.Backbtn.Margin = new System.Windows.Forms.Padding(2);
             this.Backbtn.Name = "Backbtn";
-            this.Backbtn.Size = new System.Drawing.Size(97, 33);
+            this.Backbtn.Size = new System.Drawing.Size(63, 33);
             this.Backbtn.TabIndex = 21;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
@@ -131,6 +131,7 @@
             // 
             this.gender.AutoSize = true;
             this.gender.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gender.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.gender.Location = new System.Drawing.Point(49, 230);
             this.gender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.gender.Name = "gender";
@@ -142,6 +143,7 @@
             // 
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.email.Location = new System.Drawing.Point(49, 392);
             this.email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.email.Name = "email";
@@ -153,6 +155,7 @@
             // 
             this.subject.AutoSize = true;
             this.subject.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.subject.Location = new System.Drawing.Point(49, 149);
             this.subject.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subject.Name = "subject";
@@ -164,6 +167,7 @@
             // 
             this.phonenumber.AutoSize = true;
             this.phonenumber.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phonenumber.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.phonenumber.Location = new System.Drawing.Point(49, 344);
             this.phonenumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.phonenumber.Name = "phonenumber";
@@ -175,6 +179,7 @@
             // 
             this.dateofbirth.AutoSize = true;
             this.dateofbirth.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateofbirth.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.dateofbirth.Location = new System.Drawing.Point(49, 297);
             this.dateofbirth.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.dateofbirth.Name = "dateofbirth";
@@ -186,6 +191,7 @@
             // 
             this.address.AutoSize = true;
             this.address.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.address.Location = new System.Drawing.Point(49, 190);
             this.address.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.address.Name = "address";
@@ -197,6 +203,7 @@
             // 
             this.lecturername.AutoSize = true;
             this.lecturername.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lecturername.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lecturername.Location = new System.Drawing.Point(49, 109);
             this.lecturername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lecturername.Name = "lecturername";
@@ -207,18 +214,19 @@
             // tittle
             // 
             this.tittle.AutoSize = true;
-            this.tittle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 22.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tittle.Location = new System.Drawing.Point(389, 9);
+            this.tittle.Font = new System.Drawing.Font("Baskerville Old Face", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tittle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tittle.Location = new System.Drawing.Point(32, 9);
             this.tittle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tittle.Name = "tittle";
-            this.tittle.Size = new System.Drawing.Size(414, 34);
+            this.tittle.Size = new System.Drawing.Size(378, 35);
             this.tittle.TabIndex = 12;
             this.tittle.Text = "Lecturer Registration Form";
             // 
             // submitbtn
             // 
             this.submitbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitbtn.Location = new System.Drawing.Point(544, 442);
+            this.submitbtn.Location = new System.Drawing.Point(330, 431);
             this.submitbtn.Margin = new System.Windows.Forms.Padding(2);
             this.submitbtn.Name = "submitbtn";
             this.submitbtn.Size = new System.Drawing.Size(63, 25);
@@ -232,14 +240,15 @@
             this.name.FormattingEnabled = true;
             this.name.Location = new System.Drawing.Point(244, 109);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(318, 21);
+            this.name.Size = new System.Drawing.Size(148, 21);
             this.name.TabIndex = 31;
             // 
             // Lecturer_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1282, 753);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(454, 509);
             this.Controls.Add(this.name);
             this.Controls.Add(this.submitbtn);
             this.Controls.Add(this.number);

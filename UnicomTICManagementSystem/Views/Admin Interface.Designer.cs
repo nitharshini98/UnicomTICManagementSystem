@@ -38,7 +38,6 @@
             this.marksbtn = new System.Windows.Forms.Button();
             this.timetablebtn = new System.Windows.Forms.Button();
             this.staffbtn = new System.Windows.Forms.Button();
-            this.attendancebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // sqLiteCommandBuilder1
@@ -50,7 +49,8 @@
             // 
             this.Tittle.AutoSize = true;
             this.Tittle.Font = new System.Drawing.Font("Baskerville Old Face", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tittle.Location = new System.Drawing.Point(242, 24);
+            this.Tittle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Tittle.Location = new System.Drawing.Point(129, 19);
             this.Tittle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Tittle.Name = "Tittle";
             this.Tittle.Size = new System.Drawing.Size(233, 35);
@@ -60,10 +60,10 @@
             // studentbtn
             // 
             this.studentbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentbtn.Location = new System.Drawing.Point(279, 88);
-            this.studentbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.studentbtn.Location = new System.Drawing.Point(151, 88);
+            this.studentbtn.Margin = new System.Windows.Forms.Padding(2);
             this.studentbtn.Name = "studentbtn";
-            this.studentbtn.Size = new System.Drawing.Size(153, 43);
+            this.studentbtn.Size = new System.Drawing.Size(177, 43);
             this.studentbtn.TabIndex = 1;
             this.studentbtn.Text = "Student Management";
             this.studentbtn.UseVisualStyleBackColor = true;
@@ -72,8 +72,8 @@
             // subjectbtn
             // 
             this.subjectbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subjectbtn.Location = new System.Drawing.Point(279, 135);
-            this.subjectbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.subjectbtn.Location = new System.Drawing.Point(151, 147);
+            this.subjectbtn.Margin = new System.Windows.Forms.Padding(2);
             this.subjectbtn.Name = "subjectbtn";
             this.subjectbtn.Size = new System.Drawing.Size(177, 44);
             this.subjectbtn.TabIndex = 1;
@@ -84,8 +84,8 @@
             // exambtn
             // 
             this.exambtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exambtn.Location = new System.Drawing.Point(279, 195);
-            this.exambtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.exambtn.Location = new System.Drawing.Point(151, 195);
+            this.exambtn.Margin = new System.Windows.Forms.Padding(2);
             this.exambtn.Name = "exambtn";
             this.exambtn.Size = new System.Drawing.Size(177, 36);
             this.exambtn.TabIndex = 1;
@@ -96,8 +96,8 @@
             // lecturebtn
             // 
             this.lecturebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lecturebtn.Location = new System.Drawing.Point(279, 235);
-            this.lecturebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lecturebtn.Location = new System.Drawing.Point(151, 235);
+            this.lecturebtn.Margin = new System.Windows.Forms.Padding(2);
             this.lecturebtn.Name = "lecturebtn";
             this.lecturebtn.Size = new System.Drawing.Size(177, 41);
             this.lecturebtn.TabIndex = 1;
@@ -108,8 +108,8 @@
             // backbtn
             // 
             this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(168, 512);
-            this.backbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.backbtn.Location = new System.Drawing.Point(26, 495);
+            this.backbtn.Margin = new System.Windows.Forms.Padding(2);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(88, 42);
             this.backbtn.TabIndex = 2;
@@ -120,10 +120,10 @@
             // marksbtn
             // 
             this.marksbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marksbtn.Location = new System.Drawing.Point(279, 378);
-            this.marksbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.marksbtn.Location = new System.Drawing.Point(151, 378);
+            this.marksbtn.Margin = new System.Windows.Forms.Padding(2);
             this.marksbtn.Name = "marksbtn";
-            this.marksbtn.Size = new System.Drawing.Size(177, 56);
+            this.marksbtn.Size = new System.Drawing.Size(177, 47);
             this.marksbtn.TabIndex = 3;
             this.marksbtn.Text = "Marks Management";
             this.marksbtn.UseVisualStyleBackColor = true;
@@ -132,8 +132,8 @@
             // timetablebtn
             // 
             this.timetablebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timetablebtn.Location = new System.Drawing.Point(279, 330);
-            this.timetablebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.timetablebtn.Location = new System.Drawing.Point(151, 330);
+            this.timetablebtn.Margin = new System.Windows.Forms.Padding(2);
             this.timetablebtn.Name = "timetablebtn";
             this.timetablebtn.Size = new System.Drawing.Size(177, 44);
             this.timetablebtn.TabIndex = 4;
@@ -144,8 +144,8 @@
             // staffbtn
             // 
             this.staffbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.staffbtn.Location = new System.Drawing.Point(279, 280);
-            this.staffbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.staffbtn.Location = new System.Drawing.Point(151, 280);
+            this.staffbtn.Margin = new System.Windows.Forms.Padding(2);
             this.staffbtn.Name = "staffbtn";
             this.staffbtn.Size = new System.Drawing.Size(177, 46);
             this.staffbtn.TabIndex = 5;
@@ -153,25 +153,13 @@
             this.staffbtn.UseVisualStyleBackColor = true;
             this.staffbtn.Click += new System.EventHandler(this.staffbtn_Click);
             // 
-            // attendancebtn
-            // 
-            this.attendancebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attendancebtn.Location = new System.Drawing.Point(279, 438);
-            this.attendancebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.attendancebtn.Name = "attendancebtn";
-            this.attendancebtn.Size = new System.Drawing.Size(177, 45);
-            this.attendancebtn.TabIndex = 3;
-            this.attendancebtn.Text = "Attendance Management";
-            this.attendancebtn.UseVisualStyleBackColor = true;
-            this.attendancebtn.Click += new System.EventHandler(this.attendance_Click);
-            // 
             // Admin_Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 588);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(532, 588);
             this.Controls.Add(this.backbtn);
-            this.Controls.Add(this.attendancebtn);
             this.Controls.Add(this.marksbtn);
             this.Controls.Add(this.timetablebtn);
             this.Controls.Add(this.staffbtn);
@@ -180,7 +168,8 @@
             this.Controls.Add(this.subjectbtn);
             this.Controls.Add(this.studentbtn);
             this.Controls.Add(this.Tittle);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Admin_Interface";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Admin_Interface";
@@ -202,6 +191,5 @@
         private System.Windows.Forms.Button marksbtn;
         private System.Windows.Forms.Button timetablebtn;
         private System.Windows.Forms.Button staffbtn;
-        private System.Windows.Forms.Button attendancebtn;
     }
 }

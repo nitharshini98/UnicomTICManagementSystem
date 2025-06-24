@@ -74,9 +74,7 @@ namespace UnicomTICManagementSystem.Views
 
         private void attendance_Click(object sender, EventArgs e)
         {   
-            this.Hide();
-            Attendance_Management attendance_Management = new Attendance_Management();  
-            attendance_Management.ShowDialog();
+
         }
 
         private void backbtn_Click(object sender, EventArgs e)

@@ -48,17 +48,17 @@
             // marksdataGridView1
             // 
             this.marksdataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.marksdataGridView1.Location = new System.Drawing.Point(265, 190);
+            this.marksdataGridView1.Location = new System.Drawing.Point(239, 100);
             this.marksdataGridView1.Name = "marksdataGridView1";
             this.marksdataGridView1.RowHeadersWidth = 51;
-            this.marksdataGridView1.Size = new System.Drawing.Size(345, 197);
+            this.marksdataGridView1.Size = new System.Drawing.Size(292, 274);
             this.marksdataGridView1.TabIndex = 27;
             this.marksdataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.marksdataGridView1_CellContentClick);
             // 
             // deletebtn
             // 
             this.deletebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deletebtn.Location = new System.Drawing.Point(494, 113);
+            this.deletebtn.Location = new System.Drawing.Point(293, 405);
             this.deletebtn.Name = "deletebtn";
             this.deletebtn.Size = new System.Drawing.Size(106, 28);
             this.deletebtn.TabIndex = 24;
@@ -69,7 +69,7 @@
             // updatebtn
             // 
             this.updatebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.updatebtn.Location = new System.Drawing.Point(232, 113);
+            this.updatebtn.Location = new System.Drawing.Point(12, 405);
             this.updatebtn.Name = "updatebtn";
             this.updatebtn.Size = new System.Drawing.Size(106, 28);
             this.updatebtn.TabIndex = 25;
@@ -80,7 +80,7 @@
             // addbtn
             // 
             this.addbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addbtn.Location = new System.Drawing.Point(357, 113);
+            this.addbtn.Location = new System.Drawing.Point(150, 405);
             this.addbtn.Name = "addbtn";
             this.addbtn.Size = new System.Drawing.Size(106, 28);
             this.addbtn.TabIndex = 26;
@@ -90,18 +90,20 @@
             // 
             // dateTextBox1
             // 
-            this.dateTextBox1.Location = new System.Drawing.Point(27, 498);
+            this.dateTextBox1.Location = new System.Drawing.Point(62, 331);
             this.dateTextBox1.Mask = "00/00/0000";
             this.dateTextBox1.Name = "dateTextBox1";
-            this.dateTextBox1.Size = new System.Drawing.Size(199, 20);
+            this.dateTextBox1.Size = new System.Drawing.Size(106, 20);
             this.dateTextBox1.TabIndex = 23;
             this.dateTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // date
             // 
             this.date.AutoSize = true;
+            this.date.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.date.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date.Location = new System.Drawing.Point(28, 459);
+            this.date.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.date.Location = new System.Drawing.Point(8, 329);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(48, 22);
             this.date.TabIndex = 20;
@@ -110,8 +112,10 @@
             // studentname
             // 
             this.studentname.AutoSize = true;
+            this.studentname.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.studentname.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentname.Location = new System.Drawing.Point(46, 151);
+            this.studentname.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.studentname.Location = new System.Drawing.Point(12, 100);
             this.studentname.Name = "studentname";
             this.studentname.Size = new System.Drawing.Size(127, 22);
             this.studentname.TabIndex = 21;
@@ -120,8 +124,10 @@
             // subjectname
             // 
             this.subjectname.AutoSize = true;
+            this.subjectname.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.subjectname.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subjectname.Location = new System.Drawing.Point(28, 242);
+            this.subjectname.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.subjectname.Location = new System.Drawing.Point(12, 178);
             this.subjectname.Name = "subjectname";
             this.subjectname.Size = new System.Drawing.Size(123, 22);
             this.subjectname.TabIndex = 22;
@@ -130,8 +136,10 @@
             // tittle
             // 
             this.tittle.AutoSize = true;
+            this.tittle.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.tittle.Font = new System.Drawing.Font("Baskerville Old Face", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tittle.Location = new System.Drawing.Point(226, 29);
+            this.tittle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tittle.Location = new System.Drawing.Point(21, 28);
             this.tittle.Name = "tittle";
             this.tittle.Size = new System.Drawing.Size(184, 35);
             this.tittle.TabIndex = 19;
@@ -141,8 +149,10 @@
             // marks
             // 
             this.marks.AutoSize = true;
+            this.marks.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.marks.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marks.Location = new System.Drawing.Point(46, 340);
+            this.marks.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.marks.Location = new System.Drawing.Point(12, 254);
             this.marks.Name = "marks";
             this.marks.Size = new System.Drawing.Size(60, 22);
             this.marks.TabIndex = 21;
@@ -151,15 +161,15 @@
             // marks1
             // 
             this.marks1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marks1.Location = new System.Drawing.Point(32, 377);
+            this.marks1.Location = new System.Drawing.Point(12, 279);
             this.marks1.Name = "marks1";
-            this.marks1.Size = new System.Drawing.Size(179, 23);
+            this.marks1.Size = new System.Drawing.Size(156, 23);
             this.marks1.TabIndex = 29;
             // 
             // backbtn
             // 
             this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(63, 562);
+            this.backbtn.Location = new System.Drawing.Point(6, 469);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(99, 31);
             this.backbtn.TabIndex = 30;
@@ -170,7 +180,7 @@
             // studentname1
             // 
             this.studentname1.FormattingEnabled = true;
-            this.studentname1.Location = new System.Drawing.Point(27, 176);
+            this.studentname1.Location = new System.Drawing.Point(12, 125);
             this.studentname1.Name = "studentname1";
             this.studentname1.Size = new System.Drawing.Size(156, 21);
             this.studentname1.TabIndex = 31;
@@ -178,16 +188,17 @@
             // subjectname1
             // 
             this.subjectname1.FormattingEnabled = true;
-            this.subjectname1.Location = new System.Drawing.Point(27, 288);
+            this.subjectname1.Location = new System.Drawing.Point(12, 203);
             this.subjectname1.Name = "subjectname1";
-            this.subjectname1.Size = new System.Drawing.Size(151, 21);
+            this.subjectname1.Size = new System.Drawing.Size(156, 21);
             this.subjectname1.TabIndex = 31;
             // 
             // Marks_Management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 606);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(560, 508);
             this.Controls.Add(this.subjectname1);
             this.Controls.Add(this.studentname1);
             this.Controls.Add(this.backbtn);

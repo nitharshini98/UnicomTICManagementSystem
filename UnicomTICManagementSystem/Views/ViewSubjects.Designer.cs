@@ -37,30 +37,33 @@
             // tittle
             // 
             this.tittle.AutoSize = true;
-            this.tittle.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tittle.Location = new System.Drawing.Point(635, 81);
+            this.tittle.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tittle.Font = new System.Drawing.Font("Modern No. 20", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tittle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tittle.Location = new System.Drawing.Point(49, 31);
+            this.tittle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tittle.Name = "tittle";
-            this.tittle.Size = new System.Drawing.Size(280, 50);
+            this.tittle.Size = new System.Drawing.Size(200, 32);
             this.tittle.TabIndex = 7;
             this.tittle.Text = "View Subjects";
             // 
             // viewtsubjectdata2
             // 
             this.viewtsubjectdata2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.viewtsubjectdata2.Location = new System.Drawing.Point(489, 208);
+            this.viewtsubjectdata2.Location = new System.Drawing.Point(41, 91);
+            this.viewtsubjectdata2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.viewtsubjectdata2.Name = "viewtsubjectdata2";
             this.viewtsubjectdata2.RowHeadersWidth = 51;
             this.viewtsubjectdata2.RowTemplate.Height = 24;
-            this.viewtsubjectdata2.Size = new System.Drawing.Size(603, 430);
+            this.viewtsubjectdata2.Size = new System.Drawing.Size(271, 238);
             this.viewtsubjectdata2.TabIndex = 6;
             // 
             // backbtn
             // 
             this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.Location = new System.Drawing.Point(13, 802);
-            this.backbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.backbtn.Location = new System.Drawing.Point(41, 378);
             this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(132, 38);
+            this.backbtn.Size = new System.Drawing.Size(99, 31);
             this.backbtn.TabIndex = 8;
             this.backbtn.Text = "Back";
             this.backbtn.UseVisualStyleBackColor = true;
@@ -68,12 +71,14 @@
             // 
             // ViewSubjects
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1581, 853);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(392, 473);
             this.Controls.Add(this.backbtn);
             this.Controls.Add(this.tittle);
             this.Controls.Add(this.viewtsubjectdata2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ViewSubjects";
             this.Text = "ViewSubjects";
             this.Load += new System.EventHandler(this.ViewSubjects_Load);
